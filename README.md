@@ -1,8 +1,7 @@
 # Bachelor thesis "Assessment of the routing capability of ATKIS based on a comparison of road data from ATKIS and OSM"
 The code of this thesis is published on GitHub: https://github.com/KPoppi/RoadDataComparison<br/>
 This repository contains PostgreSQL/PLpgSQL-Code which I wrote and used during an analysis of the car routing capability of ATKIS in my bachelor thesis.<br/>
-It is written for the use of PostGIS with the extension [pgRouting](https://docs.pgrouting.org/3.1/en/index.html).<br/>
-In this thesis PostgreSQL version 13.3, PostGIS version 3.1.1 and pgRouting version 3.1.3 were used.<br/>
+It is written for the use of PostGIS with the extension [pgRouting](https://docs.pgrouting.org/3.1/en/index.html). In this thesis PostgreSQL version 13.3, PostGIS version 3.1.1 and pgRouting version 3.1.3 were used.<br/>
 For an abstract of the thesis, see [Abstract of the thesis](https://github.com/KPoppi/RoadDataComparison#abstract-of-the-thesis).
 
 ## Data
@@ -10,7 +9,7 @@ In the folder ``\data`` you can find ATKIS (``E.Ben.NAS_WHV.0001.xml``) and OSM 
 
 ATKIS is an extract from the geodata of the ["Landesamt für Geoinformation und Landesvermessung Niedersachsen"](https://www.lgln.niedersachsen.de/startseite) (LGLN), ©2021, under the
 ["Data licence Germany – attribution – Version 2.0"](http://www.govdata.de/dl-de/by-2-0).<br/>
-The OSM data is from [OpenStreetMap](https://www.openstreetmap.org), © OpenStreetMap contributors. It is provided under the licence [Open Data Commons Open Database Lizenz](http://opendatacommons.org/licenses/odbl) (ODbL).<br/>
+The OSM data is from [OpenStreetMap](https://www.openstreetmap.org), © OpenStreetMap contributors. It is provided under the licence [Open Data Commons Open Database Lizenz](https://opendatacommons.org/licenses/odbl/1.0) (ODbL).<br/>
 For licensing reasons, the 'Hauskoordinaten' used cannot be provided.
 
 ## Workflow
