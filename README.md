@@ -27,7 +27,7 @@ In addition, the values for the quantitative comparison of both networks and of 
 At last, it contains a functionality for calculating network nodes of a specific catchment area.<br/>
 A qualitative analysis was made by visualizing those data in QGIS.<br/>
 
-ATKIS itself does not provide one-way streets but some oneway-values gotten from OSM are provided manually for testing them with ATKIS. They can be found in ``onewaysATKIS.sql`` in the folder ``\data``.
+Currently, ATKIS itself does not provide one-way street attribute values but some oneway-values gotten from OSM are provided manually for testing them with ATKIS. They can be found in ``onewaysATKIS.sql`` in the folder ``\data``.
 
 ## Loading ATKIS and OSM data from local storage into PostGIS
 Load ATKIS by means of [PostNAS](http://trac.wheregroup.com/PostNAS):<br/>

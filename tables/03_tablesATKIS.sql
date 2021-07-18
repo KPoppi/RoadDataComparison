@@ -1,7 +1,7 @@
 -- description: code of bachelor thesis at ifgi, University of Muenster
 -- author: Katharina Poppinga
 
--- delete tables which are not needed but loaded by PostNas-Suite
+-- delete tables which are not needed but loaded by PostNAS
 DROP TABLE IF EXISTS alkis_beziehungen, ax_bahnstrecke, ax_bahnverkehr, ax_bahnverkehrsanlage, ax_bauwerkimgewaesserbereich,
 ax_bauwerkoderanlagefuerindustrieundgewerbe, ax_bauwerkoderanlagefuersportfreizeitunderholung, ax_boeschungkliff,
 ax_dammwalldeich, ax_einrichtungenfuerdenschiffsverkehr, ax_flaechebesondererfunktionalerpraegung, ax_flaechegemischternutzung,
