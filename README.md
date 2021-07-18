@@ -1,7 +1,8 @@
 # Bachelor thesis "Assessment of the routing capability of ATKIS based on a comparison of road data from ATKIS and OSM"
 The code of this thesis is published on GitHub: https://github.com/KPoppi/RoadDataComparison<br/>
-This repository contains PostgreSQL/PLpgSQL-Code which I wrote and used during an analysis of the car routing capability of ATKIS in my bachelor thesis.<br/>
-It is written for the use of PostGIS with the extension [pgRouting](https://docs.pgrouting.org/3.1/en/index.html). In this thesis PostgreSQL version 13.3, PostGIS version 3.1.1 and pgRouting version 3.1.3 were used.<br/>
+This repository contains PostgreSQL/PLpgSQL-Code which I wrote and used during an analysis of the car routing capability of ATKIS in my bachelor thesis.
+It is written for the use of PostGIS with the extension [pgRouting](https://docs.pgrouting.org/3.1/en/index.html).
+In this thesis PostgreSQL version 13.3, PostGIS version 3.1.1 and pgRouting version 3.1.3 were used.<br/>
 For an abstract of the thesis, see [Abstract of the thesis](https://github.com/KPoppi/RoadDataComparison#abstract-of-the-thesis).
 
 ## Data
@@ -26,7 +27,7 @@ In addition, the values for the quantitative comparison of both networks and of 
 At last, it contains a functionality for calculating network nodes of a specific catchment area.<br/>
 A qualitative analysis was made by visualizing those data in QGIS.<br/>
 
-ATKIS itself does not provide oneways but some oneway values are provided manually for testing them with ATKIS. They can be found in ``onewaysATKIS.sql`` in the folder ``\data``.
+ATKIS itself does not provide one-way streets but some oneway-values gotten from OSM are provided manually for testing them with ATKIS. They can be found in ``onewaysATKIS.sql`` in the folder ``\data``.
 
 ## Loading ATKIS and OSM data from local storage into PostGIS
 Load ATKIS by means of [PostNAS](http://trac.wheregroup.com/PostNAS):<br/>
